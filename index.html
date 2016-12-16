@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.png">
+    <title>Midnight Clock</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="bg"></div>
+    </div>
+
+    <div id="clock" onclick="info();">
+      <div class="clock-bg">
+        <div class="clock-fg">
+          <div class="clock-center"></div>
+          <div class="clock-needle"></div>
+        </div>
+
+        <p class="info">
+          <span>Midnight clock</span>
+          <br>a clock that tells you where it's midnight right now
+        </p>
+      </div>
+    </div>
+
+    <h1 id="country"></h1>
+    <h1 id="desc">A broken clock is always right</h1>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
